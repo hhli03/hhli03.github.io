@@ -8,8 +8,8 @@ height: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
 }
+
 .dropdown0 {
   position: absolute;
   top:30px;
@@ -31,8 +31,6 @@ background-size: cover;
 .dropdown0:hover .dropdown-content {
   display: block;
 }
-
-
 
 .dropdown1 {
     position: absolute;
