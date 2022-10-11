@@ -1,0 +1,23 @@
+h1 {
+    color:white;
+    font-size: 80px;
+    font-family: myfirstfont;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 20px;
+
+
+}
+
+body{
+    background-color:black;
+}
+
+@font-face {
+    font-family: myfirstfont;
+    src: url(MineraleTry-Bold.otf);
+}
+

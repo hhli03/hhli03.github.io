@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+  }
+ 
+  @font-face {
+    font-family: myfirstfont;
+    src: url(MineraleTry-LightItalic.otf);
+}
+
+@font-face {
+  font-family: mysecondfont;
+  src: url(MineraleTry-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: mythirdfont;
+  src: url(MineraleTry-ExtraLightItalic.otf);
+}
+
+@font-face {
+  font-family: myfourthfont;
+  src: url(MineraleTry-MediumItalic.otf);
+}
+
+#music{
+    font-family: myfirstfont;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+#music{
+  transition:all .4s;
+  
+}
+
+#music:hover{
+  font-family: mysecondfont;
+  font-size:larger;
+}
+
+#move{
+    font-family: myfirstfont;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+#move{
+  transition:all .4s;
+}
+#move:hover{
+  font-family: mysecondfont;
+  font-size:larger;
+}
+
+#cards {
+	margin: 30px auto;
+	width: 868px;
+    display: flex;
+    justify-content: center;
+}
+
+#cards:after {
+	clear:both;
+}
+
+.card {
+	background-color: #FFF;
+	font-size:60px;
+	line-height:60px;
+	width:60px;
+	text-align:center;
+	font-family: myfirstfont;
+	padding: 20px;
+	margin:0;
+	float:left;
+	transition: all .7s;
+	box-sizing:border-box;
+	color: black;
+}
+
+.card:nth-child(1) {
+	border-top-left-radius:3px;
+	border-bottom-left-radius: 3px;
+}
+
+.card:nth-child(7) {
+	border-top-right-radius:3px;
+	border-bottom-right-radius: 3px;
+}
+
+#cards:hover .card:nth-child(odd) {
+	transform: skewY(-12deg);
+  font-family: myfourthfont;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>☁️</text></svg>") 16 0,auto; 
+}
+
+#cards:hover .card:nth-child(even) {
+	transform: skewY(12deg);
+  font-family: mythirdfont;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>☁️</text></svg>") 16 0,auto; 
+}
+
+.nav{
+    width: 980px;
+    margin: 100px auto;
+    list-style: none;
+    position: relative;
+  }
+.nav li{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    border:4px solid black;
+    box-shadow: 2px 2px 0 0 rgba(0,0,0,.5);
+    margin: 12px;
+    transition:all 2s ease;
+    font-family: myfirstfont;
+    
+  }
+.nav li img{
+    margin: -23px -23px -23px -30px;   
+    transition:all 1s ease;
+  }
+.nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+.nav li a:before{
+    content: attr(title);       
+    position: relative;        
+    left: 80px;
+    top: 200px;
+    transition:all 1s ease;
+  }
+.nav li:hover{
+    border:0px solid black;
+    box-shadow: 0px 0px 20px 0 rgba(255,255,255,.5);
+    
+    
+  }
+.nav li:hover img{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>☁️</text></svg>") 16 0,auto;  
+  }
+.nav li:hover a:before{
+    top: 160px;
+
+  }
+
+#morning:hover{
+  background: url(https://media4.giphy.com/media/l2Sq6JtUsY650LqKc/200.gif);
+  filter:invert(100%);
+
+  }
+
+#rain:hover{
+    background: url(https://64.media.tumblr.com/20b55d4d4bddb8de57cc560e4ccdbc50/7e7d66afe786310f-c3/s400x600/374a3640acc985973d8c459c33f83ce877996bf7.gif);
+    filter:invert(100%);
+  
+    }
+
+#dense:hover{
+    background: url(https://i.gifer.com/Anlj.gif);
+    filter:invert(100%);
+  
+    }
+
+#concrete:hover{
+    background: url(https://i.pinimg.com/originals/63/24/3a/63243aacfe563f25e472f9e187723df1.gif);
+    filter:invert(100%);
+  
+    }
+
+#woody:hover{
+    background: url(https://i.makeagif.com/media/1-17-2018/GVISWq.gif);
+    filter:invert(100%);
+  
+    }
+
+#musk:hover{
+    background: url(https://media2.giphy.com/media/Hd3EXEZmacCoYtwVZR/giphy.gif);
+    filter:invert(100%);
+  
+    }
+
+#sensual:hover{
+    background: url(http://38.media.tumblr.com/9f75f698fac9989c5499c5a7e322b758/tumblr_nmm4xcM9ga1qa763mo1_500.gif);
+    filter:invert(100%);
+  
+    }
+
+#trail:hover{
+    background: url(https://media2.giphy.com/media/ka5i65sFAlM9pbZ2OM/giphy.gif);
+    filter:invert(100%);
+  
+    }
+#airy:hover{
+    background: url(https://64.media.tumblr.com/dcf86734f4d1c847721c09b5c7ab84eb/tumblr_ofgl6z1T8d1v8aljgo1_500.gif);
+    filter:invert(100%);
+  
+    }
+#breeze:hover{
+    background: url(https://media4.giphy.com/media/fop5eTlBCgFCE/giphy.gif?cid=6c09b9520b9a893720dd2d42bd9c5a7ce6a91772c9eb0ce9&rid=giphy.gif&ct=g);
+    filter:invert(100%);
+  
+    }
+
+#metallic:hover{
+    background: url(https://media2.giphy.com/media/fSRQtBAzrPokPCItuu/giphy-downsized-large.gif);
+    filter:invert(100%);
+  
+    }
+
+#floral:hover{
+    background: url(https://i.pinimg.com/originals/ba/2d/3e/ba2d3e127b599e52fb3425641440667f.gif);
+    filter:invert(100%);
+  
+    }
+
+#vibrantly:hover{
+    background: url(https://gifdb.com/images/thumbnail/black-white-city-glow-5jodym5ng5qyeczm.gif);
+    filter:invert(100%);
+  
+    }
+
+#fresh:hover{
+    background: url(https://45.media.tumblr.com/70eb91a1fb264498d9b573a94646a1a0/tumblr_nz0yt28g9a1raievko1_500.gif);
+    filter:invert(100%);
+  
+    }
+
+#tran:hover{
+    background: url(https://img.wattpad.com/e0908d45df55bdae1599837f6762bda40c54f1a6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5f6c424f73735669697270664a513d3d2d313034353737333734322e313638633131656465353865613234633132373731313739333535332e676966);
+    filter:invert(100%);
+  
+    }
+
+#tran:hover{
+      background: url(https://img.wattpad.com/e0908d45df55bdae1599837f6762bda40c54f1a6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5f6c424f73735669697270664a513d3d2d313034353737333734322e313638633131656465353865613234633132373731313739333535332e676966);
+      filter:invert(100%);
+    
+      }
+
+#scent:hover{
+        background: url(https://i.pinimg.com/originals/6f/7c/63/6f7c63991726d61d63730682e791d78c.gif);
+        filter:invert(100%);
+      
+        }

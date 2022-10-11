@@ -1,0 +1,739 @@
+h1{
+    text-align:center;
+}
+
+body{
+background:black;
+
+}
+
+.lol{
+    width: 330px;
+    height: 330px;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%
+
+}
+
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background: mediumorchid;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    -webkit-animation: circle 5s linear infinite;
+    animation: circle 5s linear infinite;
+
+}
+
+@-webkit-keyframes circle{
+    0%{
+        transform: rotate(0deg)translate(-160px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(-165px)rotate(-360deg);
+    }
+
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg)translate(-165px) rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg)translate(-165px) rotate(-360deg);
+
+
+
+
+    }
+}
+.box{
+    width: 1250px;
+    height: 535px;
+    margin: 1px auto;
+
+
+
+}
+.ball{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    background: hotpink;
+    border-radius: 50%;
+    animation: moving 10s linear infinite;
+}
+@keyframes moving{
+    0%{
+        top: 0;
+        left:0;
+    }
+    25%{
+        top: 0%;
+        left: 1180px;
+        background:lightgreen;
+    }
+    50%{
+        top: 470px;
+        left: 1180px;
+        background: dodgerblue;
+
+    }
+    75%{
+        top: 470px;
+        left: 0px;
+        background: lightsalmon;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background: orchid;
+
+    }
+
+}
+#s{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 550px;
+    transition:all .4s;
+    font-family: 'Xanh Mono', monospace;
+}
+#s:hover{
+    color:lightcoral;
+
+}
+
+
+
+#c{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 695px;
+    transition: all .4s;
+    font-family: 'Xanh Mono', monospace;
+}
+#c:hover{
+    color:lightgreen;
+}
+#e{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 625px;
+    transition: all .4s;
+    font-family: 'Xanh Mono', monospace;
+}
+#e:hover{
+    color:lightpink;
+}
+#n{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 550px;
+    transition: all .4s;
+    font-family: 'Xanh Mono', monospace;
+}
+#n:hover{
+    color:lightseagreen;
+}
+#t{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 695px;
+    transition: all .4s;
+    font-family: 'Xanh Mono', monospace;
+}
+#t:hover{
+    color:lightsalmon
+}
+#hi{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 780px;
+    font-family: 'Xanh Mono', monospace;
+}
+#hi{
+    display:inline-block;
+    margin:10px 20px;
+    transition:all .4s;
+    color:mediumaquamarine;
+    
+}
+  
+#hi:hover{
+    transform:rotateZ(180deg);
+    color:violet;
+}
+
+
+#one{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#two{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 530px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#three{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing:8px;
+    top: 0px;
+    left: 800px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#four{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 930px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#falling1{
+    font-size: 16px;
+    color: peachpuff;
+    position: absolute;
+    top: 0px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#falling2{
+    font-size: 16px;
+    color: lightpink;
+    position: absolute;
+    top: 20px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#falling3{
+    font-size: 16px;
+    color: lightsalmon;
+    position: absolute;
+    top: 40px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#falling4{
+    font-size: 16px;
+    color: lightcoral;
+    position: absolute;
+    top: 60px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#falling5{
+    font-size: 16px;
+    color: coral;
+    position: absolute;
+    top: 80px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#falling6{
+    font-size: 16px;
+    color: firebrick;
+    position: absolute;
+    top: 100px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#falling7{
+    font-size: 16px;
+    color: crimson;
+    position: absolute;
+    top: 120px;
+    left: 990px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#autumn{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+#wind{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#earth{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#rain{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#strong{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#warm{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 340px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#pungent{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 330px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#scent{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 135px;
+    left: 420px;
+    letter-spacing:5px;
+    font-family: 'Xanh Mono', monospace;
+
+}
+
+#sweetness{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+#cloying{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left:935px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#not{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 115px;
+    left:900px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#tone{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 105px;
+    left:970px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#camphorous{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left:1020px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#and{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left:1100px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#woody{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 165px;
+    left:1085px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#balance{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left:1150px;
+    font-family: 'Yuji Syuku', serif;
+    transform: rotate(-270deg);
+}
+
+#everything{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left:40px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#merges{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left:140px;
+    font-family: 'Yuji Syuku', serif;
+    letter-spacing: -2.5px;
+}
+
+#together{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left:200px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#blend{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left:340px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#spice{
+    font-size: 16px;
+    color: rgb(243, 106, 106);
+    position: absolute;
+    top: 190px;
+    left:850px;
+    font-family: 'Yuji Syuku', serif;
+    transform: rotate(320deg)
+}
+#sweet{
+    font-size: 16px;
+    color: rgb(251, 172, 255);
+    position: absolute;
+    top: 190px;
+    left:900px;
+    font-family: 'Yuji Syuku', serif;
+    transform: rotate(320deg)
+}
+
+#sour{
+    font-size: 16px;
+    color: rgb(251, 255, 131);
+    position: absolute;
+    top: 190px;
+    left:950px;
+    font-family: 'Yuji Syuku', serif;
+    transform: rotate(320deg)
+}
+
+#air{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left:50px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+
+#subtle{
+    font-size: 16px;
+    position: absolute;
+    top: 250px;
+    left:850px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#hint{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left:990px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#ginger{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 255px;
+    left:1120px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#rose{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 280px;
+    left:1120px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#cinnamon{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 305px;
+    left:1120px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#wrapped{
+    font-size: 16px;
+    position: absolute;
+    top: 310px;
+    left:20px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#it{
+    font-size: 16px;
+    position: absolute;
+    top: 310px;
+    left:830px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+#home{
+    font-size: 14px;
+    position: absolute;
+    top: 310px;
+    left:1020px;
+    color: lightblue;
+    font-family: 'Yuji Syuku', serif;
+}
+#blanket{
+    font-size: 14px;
+    position: absolute;
+    top: 295px;
+    left:995px;
+    color: lightsteelblue;
+    font-family: 'Yuji Syuku', serif;
+}
+#hug{
+    font-size: 14px;
+    position: absolute;
+    top: 325px;
+    left:995px;
+    color: cornflowerblue;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#sooth{
+    font-size: 16px;
+    position: absolute;
+    top: 370px;
+    left:60px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#feel{
+    font-size: 16px;
+    position: absolute;
+    top: 370px;
+    left:300px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+#infinite{
+    font-size: 16px;
+    position: absolute;
+    top: 375px;
+    left:940px;
+    color: white;
+    letter-spacing: 9px;
+    font-family: 'Xanh Mono', monospace;
+}
+
+#floating{
+    font-size: 16px;
+    position: absolute;
+    top: 410px;
+    left:110px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#in{
+    font-size: 16px;
+    position: absolute;
+    top: 420px;
+    left:270px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#nothing{
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    left:410px;
+    color: white;
+    font-family: 'Xanh Mono', monospace;
+}
+
+#dark{
+    font-size: 16px;
+    position: absolute;
+    top: 445px;
+    left:570px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+
+#sparks{
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    left:790px;
+    color: white;
+    font-family: 'Xanh Mono', monospace;
+}
+
+#colors{
+    font-size: 16px;
+    position: absolute;
+    top: 460px;
+    left:930px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+#appear{
+    font-size: 16px;
+    position: absolute;
+    top: 480px;
+    left:1080px;
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#like{
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    left:270px;
+    color: white;
+    letter-spacing: 7px;
+    font-family: 'Yuji Syuku', serif;
+}
+h1 { font-size: 16px; }
+.linear-wipe {
+  background: linear-gradient(to right, rgb(255, 188, 188) 20%, #FF0 40%, rgb(175, 232, 226) 60%, #FFF 80%);
+  background-size: 200% auto;
+  position: absolute;
+  top: 140px;
+  left: 175px;
+  font-family: 'Xanh Mono', monospace;
+  
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
