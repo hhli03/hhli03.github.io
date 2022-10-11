@@ -125,6 +125,7 @@ body{
     font-family: myfirstfont;
     
   }
+  
 .nav li img{
     margin: -23px -23px -23px -30px;   
     transition:all 1s ease;
@@ -243,12 +244,6 @@ body{
     filter:invert(100%);
   
     }
-
-#tran:hover{
-      background: url(https://img.wattpad.com/e0908d45df55bdae1599837f6762bda40c54f1a6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5f6c424f73735669697270664a513d3d2d313034353737333734322e313638633131656465353865613234633132373731313739333535332e676966);
-      filter:invert(100%);
-    
-      }
 
 #scent:hover{
         background: url(https://i.pinimg.com/originals/6f/7c/63/6f7c63991726d61d63730682e791d78c.gif);

@@ -1,7 +1,19 @@
+body, html{
+  height: 100%;
+}
+
+body {
+background-image: url(https://giffiles.alphacoders.com/108/108674.gif);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 .dropdown0 {
   position: absolute;
   top:30px;
-  right:547px;
+  right:533px;
   display: inline-block;
 }
 
