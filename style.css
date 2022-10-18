@@ -1,15 +1,40 @@
 h1 {
     color:white;
-    font-size: 80px;
+    font-size: 70px;
     font-family: myfirstfont;
     text-align: center;
-    
+}
+
+h1:hover {
+    animation: colorRotate 6s linear 0s infinite;
+}
+
+h2 {
+    color:white;
+    font-size: 20px;
+    font-family: myfirstfont;
+    text-align: center;
+}
+@keyframes colorRotate {
+from {
+color: #f7b0be;
+}
+10% {
+color: #ed8e83;
+}
+50% {
+color: #fac92c;
+}
+75% {
+color: #cfe5cc;
+}
+100% {
+color: #2178ae;
+}
 }
 
 p {
     font-size: 20px;
-
-
 }
 
 body{
@@ -21,3 +46,169 @@ body{
     src: url(MineraleTry-Bold.otf);
 }
 
+@font-face {
+    font-family: mysecondfont;
+    src: url(MineraleTry-Medium.otf);
+}
+
+
+#entry1{
+    position:absolute;
+    left:180px;
+    top:300px;
+}
+
+.center1{
+position: absolute;
+  top: 50%;
+  left: 130px;
+  transform: translate(-50%, -50%);
+  font-family: mysecondfont;
+  color:white;
+  text-align: center;
+  font-size:15px;
+}
+
+.center1:hover{
+    font-family: myfirstfont;
+    font-size:18px;
+    color:azure;
+    }
+
+
+#entry2{
+    position:absolute;
+    left:500px;
+    top:300px;
+}
+
+.center2{
+    position: absolute;
+      top: 110px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: mysecondfont;
+      color:white;
+      text-align: center;
+      font-size:15px;
+    }
+    
+    .center2:hover{
+        font-family: myfirstfont;
+        font-size:17px;
+        color:azure;
+        }
+    
+
+#entry3{
+    position:absolute;
+    right:180px;
+    top:300px;
+}
+.center3{
+    position: absolute;
+      top: 130px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: mysecondfont;
+      color:white;
+      text-align: center;
+      font-size:15px;
+    }
+    
+    .center3:hover{
+        font-family: myfirstfont;
+    font-size:16px;
+    color:azure;
+        }
+    
+
+
+#entry4{
+    position:absolute;
+    left:180px;
+    top:650px;
+}
+
+.center4{
+    position: absolute;
+      top: 105px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: mysecondfont;
+      color:white;
+      text-align: center;
+      font-size:15px;
+    }
+    
+    .center4:hover{
+        font-family: myfirstfont;
+    font-size:18px;
+    color:azure;
+        }
+    
+
+#entry5{
+    position:absolute;
+    left:500px;
+    top:650px;
+}
+
+.center5{
+    position: absolute;
+      top: 120px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: mysecondfont;
+      color:white;
+      text-align: center;
+      font-size:15px;
+    }
+    
+    .center5:hover{
+        font-family: myfirstfont;
+    font-size:18px;
+    color:azure;
+        }
+    
+
+#entry6{
+    position:absolute;
+    right:180px;
+    top:650px;
+}
+
+.center6{
+    position: absolute;
+      top: 130px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: mysecondfont;
+      color:white;
+      text-align: center;
+      font-size:15px;
+    }
+    
+    .center6:hover{
+        font-family: myfirstfont;
+    font-size:18px;
+      color:azure;
+        }
+
+@media (min-width: 800px){
+    .container{
+        display:grid;
+        grid-template-columns:50% 50%;
+        margin:1em;
+        gap:1em;
+    }
+    }
+
+@media (min-width: 1000px){
+    .container{
+    display:grid;
+    grid-template-columns:33% 33% 34%;
+    margin:1em;
+    gap:1em;
+}
+}
