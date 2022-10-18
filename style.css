@@ -13,7 +13,6 @@
     src: url(Glaschu-SemiBold.ttf);
 }
 
-
 h1 {
     color:white;
     font-size: 70px;
@@ -25,12 +24,6 @@ h1:hover {
     animation: colorRotate 6s linear 0s infinite;
 }
 
-h2 {
-    color:white;
-    font-size: 14px;
-    font-family: mythirdfont;
-    text-align: center;
-}
 @keyframes colorRotate {
 from {
 color: #f7b0be;
@@ -49,14 +42,17 @@ color: #2178ae;
 }
 }
 
-p {
-    font-size: 20px;
+h2 {
+    color:white;
+    font-size: 14px;
+    font-family: mythirdfont;
+    text-align: center;
 }
+
 
 body{
     background-color:black;
 }
-
 
 
 #entry1{
