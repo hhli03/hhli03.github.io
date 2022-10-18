@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: myfirstfont;
     src: url(Parabole.ttf);
@@ -10,6 +9,7 @@
   src: url(CardoneMicroTrial-Regular.otf);
 }
 
+/*original code: "Simple CSS Speech Bubbles", by Andréas Lundgren https://codepen.io/adevade/pen/kabVLE*/
 .speech-bubble1 {
     background: #d8373c;
     color: white;
@@ -161,6 +161,7 @@
       height: 0;
   }
 
+/*original code: "Color Palette - Flexbox Fridays 2", by Lincoln Loop https://codepen.io/team/lincolnloop/pen/QwQwza*/
 body{
     font-family:myfirstfont;}
 

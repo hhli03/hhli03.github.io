@@ -7,6 +7,7 @@ background:black;
 
 }
 
+/*original code: "Circular Animation CSS", by Shamiur Rahman https://www.youtube.com/watch?v=aoG082Kj5L8*/
 .lol{
     width: 330px;
     height: 330px;
@@ -20,7 +21,6 @@ background:black;
     border-radius: 50%
 
 }
-
 
 .circle{
     width: 30px;
@@ -61,6 +61,8 @@ background:black;
 
     }
 }
+
+/*original code: "CSS Animation Moving Ball", by Pastor Canayo https://www.youtube.com/watch?v=vSqDq_vxs0c*/
 .box{
     width: 1250px;
     height: 535px;
@@ -122,8 +124,6 @@ background:black;
 
 }
 
-
-
 #c{
     font-size: 60px;
     color: white;
@@ -172,6 +172,8 @@ background:black;
 #t:hover{
     color:lightsalmon
 }
+
+/*original code: "nth-everything css", by Fabrice W. https://codepen.io/FWeinb/pen/kOJZgb*/
 #hi{
     font-size: 50px;
     color: white;

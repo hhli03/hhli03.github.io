@@ -57,6 +57,7 @@ body{
   font-size:larger;
 }
 
+/*original code: "On Hover Heading Skew", by Jamie Ward https://codepen.io/jam1e/pen/VzgNwj*/
 #cards {
 	margin: 30px auto;
 	width: 868px;
@@ -105,6 +106,7 @@ body{
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>☁️</text></svg>") 16 0,auto; 
 }
 
+/*original code: "animated image hover effects", by haiqing wang https://codepen.io/whqet/details/kYovMG*/
 .nav{
     width: 980px;
     margin: 100px auto;
