@@ -1,3 +1,19 @@
+@font-face {
+    font-family: myfirstfont;
+    src: url(MineraleTry-Bold.otf);
+}
+
+@font-face {
+    font-family: mysecondfont;
+    src: url(MineraleTry-Medium.otf);
+}
+
+@font-face {
+    font-family: mythirdfont;
+    src: url(Glaschu-SemiBold.ttf);
+}
+
+
 h1 {
     color:white;
     font-size: 70px;
@@ -11,8 +27,8 @@ h1:hover {
 
 h2 {
     color:white;
-    font-size: 20px;
-    font-family: myfirstfont;
+    font-size: 14px;
+    font-family: mythirdfont;
     text-align: center;
 }
 @keyframes colorRotate {
@@ -41,21 +57,12 @@ body{
     background-color:black;
 }
 
-@font-face {
-    font-family: myfirstfont;
-    src: url(MineraleTry-Bold.otf);
-}
-
-@font-face {
-    font-family: mysecondfont;
-    src: url(MineraleTry-Medium.otf);
-}
 
 
 #entry1{
     position:absolute;
     left:180px;
-    top:300px;
+    top:330px;
 }
 
 .center1{
@@ -79,7 +86,7 @@ position: absolute;
 #entry2{
     position:absolute;
     left:500px;
-    top:300px;
+    top:330px;
 }
 
 .center2{
@@ -103,7 +110,7 @@ position: absolute;
 #entry3{
     position:absolute;
     right:180px;
-    top:300px;
+    top:330px;
 }
 .center3{
     position: absolute;
