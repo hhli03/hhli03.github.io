@@ -1,0 +1,182 @@
+body {
+	background: linear-gradient(-45deg, #efe7df, #e8cfc9, #f0e4e2, #dbd7d7, #e5f0f2);
+	background-size: 400% 800%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@font-face {
+    font-family: myfirstfont;
+    src: url(emizfont.ttf);
+}
+
+
+@font-face {
+    font-family: mysecondfont;
+    src: url(TravelingTypewriter.otf);
+}
+
+.title{
+    font-size: 5vw;
+    text-align:center;
+    font-family: myfirstfont;
+    color:#6799db;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+
+
+span {
+    display:none;
+    font-size:1.1vw;
+    text-align:center;
+    font-family: mysecondfont;
+    color:#0f5ea4;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+       transition:.1s ease-in-out;
+}
+
+.title:hover ~ span{
+    display:block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 35px;
+    padding: 10px;
+    justify-items: center;
+}
+
+
+.images{
+        height:50%;
+        width:auto;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    transition: transform .7s ease-in-out;
+}
+
+.images img:hover {
+    transform: rotate(360deg);
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.text:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text1{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#0f5ea4;
+}
+
+#text1:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text2{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#6799db;
+}
+
+
+#text2:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text3:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text3{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#da7bb7;
+}
+
+#text4:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text4{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#849ed6;
+}
+
+#text5{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#e78aa6;
+}
+
+#text5:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#text6{
+    font-family: mysecondfont;
+    font-size:0.92vw;
+    line-height:200%;
+    opacity: 0%;
+    animation-name: fadeIn;
+animation-duration: 2s;
+   transition:.4s ease-in-out;
+   color:#426eba;
+}
+
+#text6:hover{
+    opacity:100%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
