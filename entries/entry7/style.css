@@ -62,7 +62,6 @@ span {
     justify-items: center;
 }
 
-
 .images{
         height:50%;
         width:auto;
@@ -171,7 +170,7 @@ animation-duration: 2s;
     line-height:200%;
     opacity: 0%;
     animation-name: fadeIn;
-animation-duration: 2s;
+    animation-duration: 2s;
    transition:.4s ease-in-out;
    color:#426eba;
 }
