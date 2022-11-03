@@ -62,20 +62,100 @@ span {
     justify-items: center;
 }
 
-.images{
+#image1{
         height:50%;
         width:auto;
 }
 
-.images img {
+#image1 img {
     width: 100%;
     height: auto;
     transition: transform .7s ease-in-out;
 }
 
-.images img:hover {
+#image1 img:hover {
     transform: rotate(360deg);
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#image2{
+    height:50%;
+    width:auto;
+}
+
+#image2 img {
+width: 100%;
+height: auto;
+transition: transform .7s ease-in-out;
+}
+
+#image2 img:hover {
+transform: rotate(360deg);
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#image3{
+    height:50%;
+    width:auto;
+}
+
+#image3 img {
+width: 100%;
+height: auto;
+transition: transform .7s ease-in-out;
+}
+
+#image3 img:hover {
+transform: rotate(360deg);
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#image4{
+        height:50%;
+        width:auto;
+}
+
+#image4 img {
+    width: 100%;
+    height: auto;
+    transition: transform .7s ease-in-out;
+}
+
+#image4 img:hover {
+    transform: rotate(360deg);
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#image5{
+    height:50%;
+    width:auto;
+}
+
+#image5 img {
+width: 100%;
+height: auto;
+transition: transform .7s ease-in-out;
+}
+
+#image5 img:hover {
+transform: rotate(360deg);
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#image6{
+    height:50%;
+    width:auto;
+}
+
+#image6 img {
+width: 100%;
+height: auto;
+transition: transform .7s ease-in-out;
+}
+
+#image6 img:hover {
+transform: rotate(360deg);
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .text:hover{
@@ -178,4 +258,66 @@ animation-duration: 2s;
 #text6:hover{
     opacity:100%;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:21px;'><text y='50%'>🖍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+@media only screen and (max-width:550px){
+    .grid-container{
+        justify-items: center;
+         grid-template-columns:auto;
+         grid-gap: 12px;
+        grid-template-rows: 0fr 0.6fr 2fr 0fr 0.6fr 2fr 0fr 0.6fr 2fr 0fr 0.6fr 2fr 0fr 0.6fr 2fr 0fr 0.6fr 2fr;
+        grid-template-areas: 
+        "empty1"
+        "image1"
+        "text1"
+        "empty2"
+        "image2"
+        "text2"
+        "empty3"
+        "image3"
+        "text3"
+        "empty4"
+        "image4"
+        "text4"
+        "empty5"
+        "image5"
+        "text5"
+        "empty6"
+        "image6"
+        "text6";
+    }
+    
+    #text1{
+        font-size:1.7vw;
+    }
+    #text2{
+        font-size:1.7vw;
+    }
+    #text3{
+        font-size:1.7vw;
+    }
+    #text4{
+        font-size:1.7vw;
+    }
+    #text5{
+        font-size:1.7vw;
+    }
+    #text6{
+        font-size:1.7vw;
+    }
+    .title{
+        font-size: 10.5vw;
+    }
+
+span{
+    font-size:2vw;
+}
+
+#empty1{
+    grid-template-rows: 0.1fr;
+}
+
+body {
+	background-size: 400% 3800%;
+}
 }
