@@ -1,6 +1,6 @@
 @font-face {
     font-family: myfirstfont;
-    src: url(MineraleTry-Bold.otf);
+    src: url(MineraleTry-ExtraLight.otf);
 }
 
 @font-face {
@@ -10,12 +10,34 @@
 
 @font-face {
     font-family: mythirdfont;
-    src: url(Glaschu-SemiBold.ttf);
+    src: url(LeonardoFascia-M-Trial.otf);
+}
+
+.titlegrid{
+    display:grid;
+    line-height:10vw;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-gap:5vw;
+}
+
+.entrygrid{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-gap:7vw;
+    padding:15vw;
 }
 
 h1 {
     color:white;
-    font-size: 70px;
+    font-size: 10vw;
     font-family: myfirstfont;
     text-align: center;
 }
@@ -44,9 +66,10 @@ color: #2178ae;
 
 h2 {
     color:white;
-    font-size: 14px;
+    font-size: 2vw;
     font-family: mythirdfont;
     text-align: center;
+    line-height: 4.5vw;
 }
 
 
@@ -55,149 +78,8 @@ body{
 }
 
 
-#entry1{
-    position:absolute;
-    left:180px;
-    top:330px;
-}
 
-.center1{
-position: absolute;
-  top: 50%;
-  left: 130px;
-  transform: translate(-50%, -50%);
-  font-family: mysecondfont;
-  color:white;
-  text-align: center;
-  font-size:15px;
-}
-
-.center1:hover{
-    font-family: myfirstfont;
-    font-size:18px;
-    color:azure;
-    }
-
-
-#entry2{
-    position:absolute;
-    left:500px;
-    top:330px;
-}
-
-.center2{
-    position: absolute;
-      top: 110px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: mysecondfont;
-      color:white;
-      text-align: center;
-      font-size:15px;
-    }
     
-    .center2:hover{
-        font-family: myfirstfont;
-        font-size:17px;
-        color:azure;
-        }
-    
-
-#entry3{
-    position:absolute;
-    right:180px;
-    top:330px;
-}
-.center3{
-    position: absolute;
-      top: 130px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: mysecondfont;
-      color:white;
-      text-align: center;
-      font-size:15px;
-    }
-    
-    .center3:hover{
-        font-family: myfirstfont;
-    font-size:16px;
-    color:azure;
-        }
-    
-
-
-#entry4{
-    position:absolute;
-    left:180px;
-    top:650px;
-}
-
-.center4{
-    position: absolute;
-      top: 105px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: mysecondfont;
-      color:white;
-      text-align: center;
-      font-size:15px;
-    }
-    
-    .center4:hover{
-        font-family: myfirstfont;
-    font-size:18px;
-    color:azure;
-        }
-    
-
-#entry5{
-    position:absolute;
-    left:500px;
-    top:650px;
-}
-
-.center5{
-    position: absolute;
-      top: 120px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: mysecondfont;
-      color:white;
-      text-align: center;
-      font-size:15px;
-    }
-    
-    .center5:hover{
-        font-family: myfirstfont;
-    font-size:18px;
-    color:azure;
-        }
-    
-
-#entry6{
-    position:absolute;
-    right:180px;
-    top:650px;
-}
-
-.center6{
-    position: absolute;
-      top: 130px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: mysecondfont;
-      color:white;
-      text-align: center;
-      font-size:15px;
-    }
-    
-    .center6:hover{
-        font-family: myfirstfont;
-    font-size:18px;
-      color:azure;
-        }
-
 @media (min-width: 800px){
     .container{
         display:grid;
