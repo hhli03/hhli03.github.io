@@ -1,6 +1,6 @@
 @font-face {
     font-family: myfirstfont;
-    src: url(MineraleTry-ExtraLight.otf);
+    src: url(BerettaSansTrial-Light.otf);
 }
 
 @font-face {
@@ -10,8 +10,9 @@
 
 @font-face {
     font-family: mythirdfont;
-    src: url(LeonardoFascia-M-Trial.otf);
+    src: url(SpaceGrotesk-VariableFont_wght.ttf);
 }
+
 
 .titlegrid{
     display:grid;
@@ -66,7 +67,7 @@ color: #2178ae;
 
 h2 {
     color:white;
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-family: mythirdfont;
     text-align: center;
     line-height: 4.5vw;
