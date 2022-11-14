@@ -203,6 +203,8 @@
   
    #colorchange{
 background: #bf8d7a;
+color:white;
+font-size:0.85vw;
 font-weight:bold;
    }
   a:hover {
@@ -233,7 +235,7 @@ font-weight:bold;
     font-family: 'Space Mono', monospace;
     border-radius: .4em;
       font-size: 0.75vw;
-    line-height: 1.1vw;
+    line-height: 1.2vw;
     margin-bottom: 1.1vw;
       padding: 1vw;
       position: fixed;
