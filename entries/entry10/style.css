@@ -42,13 +42,125 @@ p span {
 -webkit-transform:rotate(-5deg);
 font-size:1.3vw;
 font-weight: bold;
+
 }
 
 #title:hover{
+    background-color: #5f849c;
+    color:#f4f3ef;
+    border: #c3cace solid 2px
+}
+
+.normalblue:hover{
     background-color: #8d9ca4;
     color:#fefefe;
 }
 
+
+.punctblue{
+    padding:.4em .15em;
+    transform:rotate(-3deg);
+-moz-transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+}
+
+.punctblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+
+.upblue{
+    transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+}
+
+.upblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+
+    
+}
+.smallblue{
+    padding:.4em .25em;
+    margin-right:2px;
+}
+
+.smallblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+.sheer:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+.higherblue{
+    position:relative;top:-4px; 
+}
+
+.higherblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+.downabithigherblue{
+    transform:rotate(3deg);
+-moz-transform:rotate(3deg);
+-ms-transform:rotate(3deg);
+-webkit-transform:rotate(3deg);
+position:relative;
+top:-4px;
+}
+
+.downabithigherblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;}
+
+.lowerblue{
+    position:relative;top:3px;
+}
+
+.lowerblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+
+.smallupabitblue{
+    transform:rotate(-3deg);
+-moz-transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+margin-right:4px;
+}
+
+.smallupabitblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+.downblue{
+    transform:rotate(6deg);
+-moz-transform:rotate(6deg);
+-ms-transform:rotate(6deg);
+-webkit-transform:rotate(6deg);
+}
+
+.downblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
+
+.smallhigherblue{
+    position:relative;top:-4px;
+    padding:.4em .25em;
+    margin-right:2px;
+}
+.smallhigherblue:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
+}
 .up {
     transform:rotate(-5deg);
 -moz-transform:rotate(-5deg);
@@ -75,6 +187,90 @@ font-weight: bold;
 .lower {position:relative;top:3px;}
 .leftabit {position:relative;left:-4px;}
 .rightabit {position:relative;left:3px;}
+
+
+.ber{
+    transform:rotate(-3deg);
+-moz-transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+padding:.4em .25em;
+    margin-right:2px;
+}
+
+.ber:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+.breeze{
+    margin-right:4px;
+    position:relative;top:-4px;
+}
+
+.breeze:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+.vanillalower{
+    position:relative;top:3px;
+}
+.vanillalower:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+.woody{
+    position:relative;top:-4px;
+}
+
+.woody:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+.smallcolor{
+    padding:.4em .25em;
+    margin-right:2px;
+}
+
+.smallcolor:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+.downcolor{
+    transform:rotate(6deg);
+-moz-transform:rotate(6deg);
+-ms-transform:rotate(6deg);
+-webkit-transform:rotate(6deg);
+}
+
+.downcolor:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+.orchid{
+    transform:rotate(-5deg);
+-moz-transform:rotate(-5deg);
+-ms-transform:rotate(-5deg);
+-webkit-transform:rotate(-5deg);
+}
+
+.orchid:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
+#lavender{
+    position:relative;top:-4px;
+}
+
+#lavender:hover{
+    background-color: #d9ccc1;
+    color:#fefefe;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:700');
 body {
