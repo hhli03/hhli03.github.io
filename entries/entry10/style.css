@@ -7,7 +7,8 @@
 body{
     font-size:1vw;
     line-height:2.5vw;
-    font-family: myfirstfont;}
+    font-family: myfirstfont;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>☁️</text></svg>") 16 0,auto; /*!emojicursor.app*/}
 
 .container {
     width:75%;
@@ -32,6 +33,20 @@ p span {
 
 .punct {
     padding:.4em .15em;
+}
+
+#title {
+    transform:rotate(-5deg);
+-moz-transform:rotate(-5deg);
+-ms-transform:rotate(-5deg);
+-webkit-transform:rotate(-5deg);
+font-size:1.3vw;
+font-weight: bold;
+}
+
+#title:hover{
+    background-color: #8d9ca4;
+    color:#fefefe;
 }
 
 .up {
