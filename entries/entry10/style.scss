@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200,800&display=swap');
+
+:root {
+	// background: #f1ac97;
+	font-family: Inter, Helvetica, Arial;
+	font-size: calc(45px + 0.5vw);
+	font-weight: 800;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+// LAYOUT
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	height: 80vh;
+}
+
+p {
+	grid-column: span 1, autofit;
+	width: calc(100% - 2em);
+	height: calc(100% - 2em);
+	overflow-wrap: break-word; // allows words to break at any point to properly wrap
+	padding: 1em;
+	&:nth-child(2n) {
+		background: black;
+		color: white;
+	}
+	&:nth-child(5n+1) {
+		background: yellow;
+		color: black;
+	}
+	&:empty {
+		background-image:
+		repeating-linear-gradient(
+		white,
+		white 10%,
+		black 10%,
+		black 20%
+		);
+	}
+}
