@@ -13,70 +13,179 @@
     src: url(SpaceGrotesk-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: myfourthfont;
+    src: url(PerfectSketchW01Bold.ttf);
+}
+
+@font-face {
+    font-family: myfifthfont;
+    src: url(dear-john.otf);
+}
+
+.marquee {
+    height: 60px;	
+    overflow: hidden;
+    position: relative;
+
+   }
+  
+   .marquee p {
+    position: absolute;
+    width: 100%;
+    font-size: 2.3vw;
+    color: #edb8b1;
+    font-family: myfourthfont;
+    letter-spacing: 2px;
+    margin: 0;
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+     
+   -moz-animation: scroll-left 20s linear infinite;
+   -webkit-animation: scroll-left 20s linear infinite;
+   animation: scroll-left 20s linear infinite;
+   }
+   @-moz-keyframes scroll-left {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-75%); }
+   }
+   @-webkit-keyframes scroll-left {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-75%); }
+   }
+   @keyframes scroll-left {
+    0%   { 
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-75%);
+    -webkit-transform: translateX(-75%);
+    transform: translateX(-75%); 
+    }
+   }
+   .sticker{
+    background: #edb8b1;
+    color: black;
+    font-family: myfourthfont;
+      font-size: 1vw;
+    line-height: 1.1vw;
+    margin-bottom: 1.5vw;
+      padding: 3.5vw;
+      text-align: center;
+      vertical-align: top;
+          min-width: 7em;
+   } 
+
+
+.line{
+    color:#5e5946;
+    border-bottom: 0.09vw dashed #5e5946;
+    padding-bottom: 0.01vw;
+    font-family: myfifthfont;
+}
+
+.scenttitle{
+    font-size: 1.6vw;
+    color: black;
+    padding: 9px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.scenttitle:hover{
+    color:white;
+}
+
+
+.color1{
+    color:#86e3ce
+}
+
+.color2{
+    color:#d0e6a5
+}
+
+.color3{
+    color:#ffdd94
+}
+
+.color4{
+    color:#fa897b
+}
+
+.color5{
+    color:#ccabd8
+}
+
+.color6{
+    color: #b0c9e5
+}
+
+.color7{
+    color: #f5d488
+}
+
+.color8{
+    color:#f5b488
+}
+
+.color9{
+    color:#dc8ba3
+}
+
+color10{
+    color:#be8bdc
+}
 
 .titlegrid{
     display:grid;
-    line-height:10vw;
     grid-template-columns:auto;
     grid-template-rows: auto auto;
     justify-items: center;
     justify-content: center;
     text-align: center;
-    grid-gap:5vw;
+    grid-gap:3vw;
+
 }
+
 
 .entrygrid{
     display:grid;
-    grid-template-columns:auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto;
     justify-items: center;
     justify-content: center;
-    text-align: center;
     grid-gap:7vw;
     padding:15vw;
+    text-align: center;
 }
 
 h1 {
     color:white;
-    font-size: 10vw;
+    font-size: 9vw;
     font-family: myfirstfont;
-    text-align: center;
+    line-height:9.2vw;
 }
 
 h1:hover {
-    animation: colorRotate 6s linear 0s infinite;
-}
-
-@keyframes colorRotate {
-from {
-color: #f7b0be;
-}
-10% {
-color: #ed8e83;
-}
-50% {
-color: #fac92c;
-}
-75% {
-color: #cfe5cc;
-}
-100% {
-color: #2178ae;
-}
+    color:#edb8b1;
 }
 
 h2 {
-    color:white;
-    font-size: 1.6vw;
-    font-family: mythirdfont;
-    text-align: center;
-    line-height: 4.5vw;
+    color:#edb8b1;
+    font-size: 1.5vw;
+    font-family: myfourthfont;
+    line-height: 3.9vw;
 }
-
 
 body{
     background-color:black;
 }
+
 
 
 
