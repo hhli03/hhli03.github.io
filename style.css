@@ -5,12 +5,7 @@
 
 @font-face {
     font-family: mysecondfont;
-    src: url(MineraleTry-Medium.otf);
-}
-
-@font-face {
-    font-family: mythirdfont;
-    src: url(SpaceGrotesk-VariableFont_wght.ttf);
+    src: url(BerettaSansTrial-Regular.otf);
 }
 
 @font-face {
@@ -22,7 +17,18 @@
     font-family: myfifthfont;
     src: url(dear-john.otf);
 }
+html {
+    cursor: none;
+  }
 
+
+#cursor {
+    height: 1.6vw;
+    width: 1.6vw;
+    border-radius: 20px;
+    background-color: #e66f86;
+    position: absolute;
+  }
 .marquee {
     height: 60px;	
     overflow: hidden;
@@ -98,47 +104,7 @@
 
 .scenttitle:hover{
     color:white;
-}
-
-
-.color1{
-    color:#86e3ce
-}
-
-.color2{
-    color:#d0e6a5
-}
-
-.color3{
-    color:#ffdd94
-}
-
-.color4{
-    color:#fa897b
-}
-
-.color5{
-    color:#ccabd8
-}
-
-.color6{
-    color: #b0c9e5
-}
-
-.color7{
-    color: #f5d488
-}
-
-.color8{
-    color:#f5b488
-}
-
-.color9{
-    color:#dc8ba3
-}
-
-color10{
-    color:#be8bdc
+    cursor:none;
 }
 
 .titlegrid{
@@ -173,10 +139,16 @@ h1 {
 
 h1:hover {
     color:#edb8b1;
+    font-family: mysecondfont;
+}
+
+.underline:hover{
+    color:#edb8b1;
+    text-decoration: underline #edb8b1 0.2vw;
 }
 
 h2 {
-    color:#edb8b1;
+    color:white;
     font-size: 1.5vw;
     font-family: myfourthfont;
     line-height: 3.9vw;
