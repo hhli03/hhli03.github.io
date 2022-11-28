@@ -219,6 +219,7 @@ h1 {
     height:18vw; 
     width:auto;   
     cursor: -webkit-grab; cursor: grab;
+    border-radius:1.5vw;
     }
 
 
@@ -227,6 +228,7 @@ h1 {
     height:15vw; 
     width:auto;   
     cursor: -webkit-grab; cursor: grab;
+    border-radius:1.2vw;
     }
 
 
@@ -258,6 +260,7 @@ h1 {
         height:18vw; 
         width:auto;   
         cursor: -webkit-grab; cursor: grab;
+        border-radius:1.5vw;
         }
 
 #tube img { 
@@ -265,6 +268,7 @@ h1 {
     height:18vw; 
     width:auto;   
     cursor: -webkit-grab; cursor: grab;
+    border-radius:1.5vw;
     }
 
 
@@ -273,6 +277,7 @@ h1 {
     height:18vw; 
     width:auto;   
     cursor: -webkit-grab; cursor: grab;
+    border-radius:1.5vw;
     }
 
 
@@ -282,6 +287,7 @@ h1 {
     height:auto; 
     width:18vw;   
     cursor: -webkit-grab; cursor: grab;
+    border-radius:1.5vw;
     }
 
 #cafenote img { 
@@ -289,6 +295,7 @@ h1 {
     height:auto; 
     width:16.5vw;   
     cursor: -webkit-grab; cursor: grab;
+
     }
 
 
